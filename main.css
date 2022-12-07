@@ -280,6 +280,7 @@ button:hover {
     border-radius: 25px;
 }
 .promo__right__card p {
+    font-weight: 500;
     opacity: 80%;
 }
 .circle {
@@ -434,11 +435,11 @@ footer {
         flex-direction: column-reverse;
     }
     .promo__image {
-        width: 100%;
+        width: auto;
         height: 500px;
     }
     .promo__right {
-        width: 100%;
+        width: auto;
         padding: 50px 10px 50px 10px;
     }
 }
