@@ -241,9 +241,9 @@ button:hover {
     align-items: stretch;
 }
 .features__savings-box, .features__rate-box{
-  padding: 30px 40px 25px 40px;
-  color: white;
-  border-radius: 25px;
+    padding: 30px 40px 25px 40px;
+    color: white;
+    border-radius: 25px;
 }
 .features__savings-box {
     background-color: #dc5e26;
@@ -259,6 +259,58 @@ button:hover {
     color: #ff7039;
 }
 
+.promo {
+    display: flex;
+}
+.promo__image {
+    display: flex;
+    width: 50%;
+    background-image: url("img/promo.jpg");
+    background-size: cover;
+    flex-shrink: 0;
+}
+.promo__right {
+    width: 50%;
+    background-color: #dd5f26;
+    padding: 160px 60px 160px 60px;
+}
+.promo__right__card {
+    background-color: white;
+    padding: 30px 40px 30px 40px;
+    border-radius: 25px;
+}
+.promo__right__card p {
+    opacity: 80%;
+}
+.circle {
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background: #ec6b29;
+    margin-right: 10px;
+    position: relative;
+    top: 5px;
+}
+.inline div {
+    float: left;
+}
+
+.order_button {
+    display: flex;
+    justify-content: center;
+}
+
+.order {
+    background: #107b1c;
+    margin-top: 20px;
+    font-size: 18px;
+    padding: 15px 30px 15px 30px;
+    font-weight: 600;
+}
+.fa-chevron-right {
+    font-size: 15px;
+    padding-left: 5px;
+}
 
 footer {
     font-size: 16px;
@@ -376,6 +428,18 @@ footer {
     }
     .features__savings-box {
         margin-bottom: 30px;
+    }
+    .promo {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .promo__image {
+        width: 100%;
+        height: 500px;
+    }
+    .promo__right {
+        width: 100%;
+        padding: 50px 10px 50px 10px;
     }
 }
 
