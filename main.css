@@ -48,8 +48,7 @@ button {
     justify-content: space-around;
     padding-bottom: 115px;
     padding-top: 115px;
-    background: url('img/back.png') no-repeat;
-    background-position: center;
+    background: url('img/back.png') no-repeat center;
     background-size: cover;
 }
 
