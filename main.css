@@ -44,6 +44,7 @@ button {
 
 .about {
     display: flex;
+    position: relative;
     align-items: center;
     justify-content: space-around;
     padding-bottom: 115px;
@@ -346,6 +347,13 @@ footer {
 
 .footer__links a{
     margin: 0px 0px 15px 0px;
+}
+
+.orb-canvas {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    right: 0;
 }
 
 @keyframes rotation {
